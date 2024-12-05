@@ -11,7 +11,7 @@ Some swoole helper utils for swoft
 - install by composer
 
 ```bash
-composer require swoft/swlib
+composer require swoft-fork/swlib
 ```
 
 ## LICENSE

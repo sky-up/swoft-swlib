@@ -1,5 +1,5 @@
 {
-  "name": "swoft/swlib",
+  "name": "swoft-fork/swlib",
   "type": "library",
   "keywords": [
     "swoole",
@@ -9,7 +9,7 @@
   "description": "Some swoole helpr utils for swoft",
   "license": "Apache-2.0",
   "require": {
-    "php": ">7.1"
+    "php": ">8.0"
   },
   "autoload": {
     "psr-4": {
