@@ -189,7 +189,7 @@ class MemTable
      * @return array|false|mixed Will return an array when success, return false when failure
      * @throws RuntimeException
      */
-    public function get(string $key, string $field = null)
+    public function get(string $key, ?string $field = null)
     {
         if(!$field) {
             return $this->getTable()->get($key);
